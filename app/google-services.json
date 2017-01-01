@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "846039726376",
+    "firebase_url": "https://tracklocation-ba255.firebaseio.com",
+    "project_id": "tracklocation-ba255",
+    "storage_bucket": "tracklocation-ba255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846039726376:android:a8e4000caacaecae",
+        "android_client_info": {
+          "package_name": "net.zagzag.tracklocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846039726376-lu78h5cc78hf4finnsnqj6t9a3ujbnv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRv2lfTGq4PcN_ZwYWLcocflrRK9sSuF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
