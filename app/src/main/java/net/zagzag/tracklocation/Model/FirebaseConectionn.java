@@ -60,7 +60,7 @@ public class FirebaseConectionn {
        mDataBaseReference.addValueEventListener(mValueEventListener);
         String key = mDataBaseReference.getKey();
 
-
+        Log.d("","");
 
         mDataBaseReference.child("node").setValue("hello");
     }
