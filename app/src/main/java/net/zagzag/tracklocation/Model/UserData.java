@@ -1,36 +1,44 @@
 package net.zagzag.tracklocation.Model;
 
+import java.util.ArrayList;
+
 /**
  * Created by burim on 12/27/2016.
  */
 
 public class UserData {
-    private String title;
-    private String descripion;
-    private String imgUri;
+    private String name;
+    private String surname;
+    private String email;
 
-    public String getTitle() {
-        return title;
+    public UserData(String name, String surname, String email) {
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public String getName() {
+        return name;
     }
 
-    public String getDescripion() {
-        return descripion;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setDescripion(String descripion) {
-        this.descripion = descripion;
+    public String getSurname() {
+        return surname;
     }
 
-    public String getImgUri() {
-        return imgUri;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
-    public void setImgUri(String imgUri) {
-        this.imgUri = imgUri;
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
 

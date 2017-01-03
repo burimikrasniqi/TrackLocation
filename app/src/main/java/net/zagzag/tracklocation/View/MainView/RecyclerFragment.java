@@ -64,9 +64,7 @@ public class RecyclerFragment extends Fragment {
     private ArrayList<UserData> getDummyData() {
         ArrayList<UserData> list = new ArrayList<UserData>();
         for (int i = 0; i < 100; i++) {
-            UserData user = new UserData();
-            user.setTitle("Title " + i);
-            user.setDescripion("Deskripshen about this item " + i);
+            UserData user = new UserData("","","");
             list.add(user);
         }
         return list;
